@@ -1,0 +1,165 @@
+body {
+    background-image: url('images/dasboard.jpeg') ; /* Sesuaikan dengan lokasi file */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #007bff;
+    color: white;
+}
+
+
+/* Mengurangi padding dalam tabel */
+table td {
+    padding: 5px 10px; /* Menetapkan jarak dalam sel tabel, 5px untuk atas/bawah dan 10px untuk kiri/kanan */
+}
+
+/* CSS untuk tombol Hapus dan Edit */
+td form {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.btn {
+    padding: 6px 12px; /* Mengurangi padding pada tombol */
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-sm {
+    font-size: 12px;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    transform: scale(1.05); /* Efek sedikit memperbesar tombol saat hover */
+}
+
+.btn-warning {
+    padding: 10px 20px;
+    background-color: #ffc107;
+    color: #000;
+    border: none;
+    text-decoration: none;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+    transform: scale(1.05); /* Efek sedikit memperbesar tombol saat hover */
+}
+
+/* Menambahkan sedikit bayangan pada tombol */
+.btn-sm {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn-sm:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.kembali {
+    text-align: left; /* Center the button inside the container */
+    margin-top: 20px; /* Adds space at the top */
+}
+
+.kembali .btn-secondary {
+    background-color: #ffc107; /* Gray color for the secondary button */
+    color:#000; /* White text color */
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.kembali .btn-secondary:hover {
+    background-color: #e0a800; /* Darker shade when hovered */
+    transform: translateY(-2px); /* Button lift effect on hover */
+}
+
+.kembali .btn-secondary:active {
+    background-color: #e0a800; /* Even darker shade on click */
+    transform: translateY(0); /* Reset button lift */
+}
+
+.cetak-btn {
+    background-color: #28a745;  /* Warna hijau */
+    color: white;  /* Warna teks putih */
+    border: none;
+    padding: 10px 20px;  /* Padding untuk ukuran tombol */
+    font-size: 14px;  /* Ukuran teks */
+    border-radius: 5px;  /* Sudut tombol melengkung */
+    cursor: pointer;  /* Mengubah kursor saat hover */
+    transition: background-color 0.3s ease;  /* Efek transisi warna */
+    text-decoration: none;
+}
+
+.cetak-btn:hover {
+    background-color: #218838;  /* Warna hijau lebih gelap saat hover */
+}
+
+.cetak-btn:focus {
+    outline: none;  /* Menghilangkan outline saat tombol difokuskan */
+}
